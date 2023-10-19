@@ -1,0 +1,52 @@
+.clientes-table {
+    width: 100%; /* Ancho del 100% para llenar el contenedor */
+    text-align: center; /* Centrar el texto en las celdas */
+    background-color: #f2f2f2; /* Color de fondo de la tabla */
+    border-collapse: collapse; /* Colapsar los bordes de la tabla para que se vean uniformes */
+  }
+  
+  .clientes-table th, .clientes-table td {
+    padding: 10px; /* Espaciado interno en las celdas */
+    border: 1px solid #a19797; /* Borde de 1 píxel sólido con color gris claro */
+  }
+  
+  .clientes-table th {
+    background-color: #592f69; /* Color de fondo del encabezado de la tabla */
+    color: white; /* Color del texto del encabezado de la tabla */
+  }
+  
+  .table-title {
+    text-align: center; /* Centrar el texto del título */
+    margin-bottom: 20px; /* Espaciado en la parte inferior del título */
+  }
+  
+  /* pagina1.css */
+
+/* pagina1.css */
+
+.btn-create {
+    margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+    margin-bottom:10px;
+    margin-left: auto; /* Mueve el botón al lado derecho */
+    display: block;
+    padding: 5px 10px; /* Ajusta el relleno del botón */
+    background-color: #592f69; /* Establece el fondo transparente */
+    color: #e8ecef; /* Establece el color del texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    cursor: pointer; /* Cambia el cursor al estilo de mano al pasar el mouse */
+  }
+  
+  .btn-create:hover {
+    background-color: #007bff; /* Cambia el fondo a azul cuando se pasa el mouse */
+    color: #fff; /* Cambia el color del texto a blanco cuando se pasa el mouse */
+  }
+  
+/* pagina1.css */
+.trash-icon {
+  color: black; /* Color inicial del ícono */
+  transition: color 0.3s ease; /* Agrega una transición de color para un efecto suave */
+}
+
+.trash-icon:hover {
+  color: red; /* Cambia el color a rojo cuando el mouse está sobre el ícono */
+}
